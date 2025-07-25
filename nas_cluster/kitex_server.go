@@ -1,4 +1,4 @@
-package wxl_cluster
+package nas_cluster
 
 import (
 	"net"
@@ -8,8 +8,8 @@ import (
 	server "github.com/cloudwego/kitex/server"
 	"github.com/kitex-contrib/registry-nacos/registry"
 	"github.com/nas-fish/common/env"
-	"github.com/nas-fish/common/wxl_cluster/kitex_middleware"
-	"github.com/nas-fish/common/wxl_cluster/nacos"
+	"github.com/nas-fish/common/nas_cluster/kitex_middleware"
+	"github.com/nas-fish/common/nas_cluster/nacos"
 )
 
 type newServerFunc[T any] func(handler T, opts ...server.Option) server.Server
