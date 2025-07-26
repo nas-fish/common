@@ -30,7 +30,7 @@ func newProdNacosClient() (naming_client.INamingClient, error) {
 				Password:    "wxl5211314",
 			},
 			ServerConfigs: []constant.ServerConfig{
-				*constant.NewServerConfig("127.0.0.1", 8848),
+				*constant.NewServerConfig("172.21.134.141", 8848),
 			},
 		},
 	)
@@ -45,7 +45,7 @@ func newBoeNacosClient() (naming_client.INamingClient, error) {
 				Password:    "wxl5211314",
 			},
 			ServerConfigs: []constant.ServerConfig{
-				*constant.NewServerConfig("127.0.0.1", 8848),
+				*constant.NewServerConfig("172.21.134.141", 8848),
 			},
 		},
 	)
